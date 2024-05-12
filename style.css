@@ -8,13 +8,13 @@
 }
 
 body {
-    background-color: rgb(245, 188, 188);
+    background-color: rgb(57, 56, 56);
 
 
     .cards {
         width: 90%;
-        max-width: 475px;
-        background: linear-gradient(150deg, #00feba, #5b548a);
+        max-width: 1200px;
+        background: linear-gradient(150deg, #dfce76, #e95c10);
         color: white;
         margin: 100px auto 0;
         border-radius: 20px;
@@ -121,4 +121,28 @@ body {
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+    /* Styles for mobile screens (less than 768px) */
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Styles for tablet screens (between 768px and 992px) */
+}
+
+@media (min-width: 992px) {
+
+    /* Styles for desktop screens (greater than 992px) */
+    .card {
+        width: 90%;
+        max-width: 992px;
+    }
 }
