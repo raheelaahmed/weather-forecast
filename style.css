@@ -14,7 +14,7 @@ body {
     .cards {
         width: 90%;
         max-width: 1200px;
-        background: linear-gradient(150deg, #dfce76, #e95c10);
+        background: linear-gradient(150deg, #dfce76, #10e9d0);
         color: white;
         margin: 100px auto 0;
         border-radius: 20px;
@@ -132,17 +132,20 @@ body {
 /* Media queries for different screen sizes */
 @media (max-width: 768px) {
     /* Styles for mobile screens (less than 768px) */
-}
 
-@media (min-width: 768px) and (max-width: 992px) {
-    /* Styles for tablet screens (between 768px and 992px) */
-}
-
-@media (min-width: 992px) {
-
-    /* Styles for desktop screens (greater than 992px) */
-    .card {
-        width: 90%;
-        max-width: 992px;
+    .search img {
+        width: 10px;
     }
-}
+
+    @media (min-width: 768px) and (max-width: 992px) {
+        /* Styles for tablet screens (between 768px and 992px) */
+    }
+
+    @media (min-width: 992px) {
+
+        /* Styles for desktop screens (greater than 992px) */
+        .card {
+            width: 90%;
+            max-width: 992px;
+        }
+    }
